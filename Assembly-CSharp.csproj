@@ -88,6 +88,7 @@
      <Compile Include="Assets\Scripts\ItemManager\itemMotion.cs" />
      <Compile Include="Assets\Scripts\MiniMapScripts\DisableMiniMapShadow.cs" />
      <Compile Include="Assets\Scripts\MiniMapScripts\MtoOpenMap.cs" />
+     <Compile Include="Assets\Scripts\NPCFollow.cs" />
      <Compile Include="Assets\Scripts\ParticleManager\ParticleDestroyWhenFinishes.cs" />
      <Compile Include="Assets\Scripts\PlayerCamManager\CameraInitial.cs" />
      <Compile Include="Assets\Scripts\PlayerCamManager\ChangeCameraWhenEnterTheRoom.cs" />
