@@ -82,14 +82,12 @@
      <Compile Include="Assets\Scripts\CharacterManager\energyBar.cs" />
      <Compile Include="Assets\Scripts\CharacterManager\healthBar.cs" />
      <Compile Include="Assets\Scripts\CharacterManager\selfMoveTowards.cs" />
-     <Compile Include="Assets\Scripts\InCamViewDisableFollow.cs" />
      <Compile Include="Assets\Scripts\ItemManager\ItemCollectionManager.cs" />
      <Compile Include="Assets\Scripts\ItemManager\PressFToInteract.cs" />
      <Compile Include="Assets\Scripts\ItemManager\UseTorch.cs" />
      <Compile Include="Assets\Scripts\ItemManager\itemMotion.cs" />
      <Compile Include="Assets\Scripts\MiniMapScripts\DisableMiniMapShadow.cs" />
      <Compile Include="Assets\Scripts\MiniMapScripts\MtoOpenMap.cs" />
-     <Compile Include="Assets\Scripts\NPCfollow.cs" />
      <Compile Include="Assets\Scripts\ParticleManager\ParticleDestroyWhenFinishes.cs" />
      <Compile Include="Assets\Scripts\PlayerCamManager\CameraInitial.cs" />
      <Compile Include="Assets\Scripts\PlayerCamManager\ChangeCameraWhenEnterTheRoom.cs" />
@@ -97,6 +95,8 @@
      <Compile Include="Assets\Scripts\PlayerCamManager\GoodEndingInitial.cs" />
      <Compile Include="Assets\Scripts\PlayerCamManager\Move.cs" />
      <Compile Include="Assets\Scripts\PlayerCamManager\MoveCam.cs" />
+     <Compile Include="Assets\Scripts\SCP173 Scripts\InCamViewDisableFollow.cs" />
+     <Compile Include="Assets\Scripts\SCP173 Scripts\NPCfollow.cs" />
      <Compile Include="Assets\Scripts\SceneManager\EscOpenSettings.cs" />
      <Compile Include="Assets\Scripts\SceneManager\LoadSceneAfterTime.cs" />
      <Compile Include="Assets\Scripts\SceneManager\buttonController.cs" />
