@@ -18,6 +18,7 @@ public class CameraInitial : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         finalPos = this.transform.localPosition;
         this.transform.localPosition = finalPos + new Vector3 (0.0f,InitialHeight,0.0f);
         player = GameObject.Find("Player");
