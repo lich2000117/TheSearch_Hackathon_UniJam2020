@@ -19,22 +19,26 @@ public class InCamViewDisableFollow : MonoBehaviour
     private UnityEngine.AI.NavMeshAgent nav;
     private GameObject soundEffect;
 
+    
      void Start () {
         followScript = this.GetComponent<NPCfollow>();
         renderer = GameObject.Find("173Body").GetComponent<Renderer>();
         followScript.enabled = false;
         soundEffect = GameObject.Find("AudioManager");
+        nav = this.transform.GetComponent<UnityEngine.AI.NavMeshAgent>();
         this.GetComponent<InCamViewDisableFollow>().enabled = false;
      }
  
      void Update () 
      {
+         //detect if in view.
          if (renderer.isVisible){
-             //if inside the camera range, disable follow script and set current destination to local self
+            //player sees monster monster, disable follow script and set current destination to local self
+            nav.SetDestination(monster.transform.position);
             followScript.enabled = false;
          }
-         else{
-             //if too close, player died
+         else if (!renderer.isVisible){
+             //if too close and come from back, player died
             if (Vector3.Distance(monster.transform.position, player.transform.position)<1.6f) {
                 closeEnough = true;
                 monster.transform.LookAt(player.transform);
@@ -43,6 +47,7 @@ public class InCamViewDisableFollow : MonoBehaviour
                 soundEffect.GetComponent<AudioSource>().clip = soundEffect.GetComponent<AudioManager>().audioClips[4];
                 soundEffect.GetComponent<AudioSource>().Play();
             }
+            //else, enable follow script
             followScript.enabled = true;
          }
 

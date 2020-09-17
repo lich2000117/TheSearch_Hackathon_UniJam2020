@@ -83,6 +83,7 @@
      <Compile Include="Assets\DownLoad\FogOfWar\Samples\Legacy\FogOfWarTestLegacy.cs" />
      <Compile Include="Assets\DownLoad\HandTorch\Scripts\RotateObject.cs" />
      <Compile Include="Assets\DownLoad\HandTorch\Scripts\ToggleLight.cs" />
+     <Compile Include="Assets\Scripts\Additional\FanRotate.cs" />
      <Compile Include="Assets\Scripts\AudioManagement\AudioManager.cs" />
      <Compile Include="Assets\Scripts\AudioManagement\PlayAudioWhenCollide.cs" />
      <Compile Include="Assets\Scripts\CharacterManager\ActivateObj.cs" />
