@@ -1622,7 +1622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &156955832
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1953,7 +1953,7 @@ PrefabInstance:
     - target: {fileID: 1643388088300648679, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2022345230355405650, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
@@ -2813,7 +2813,7 @@ PrefabInstance:
     - target: {fileID: 1643388088300648679, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2022345230355405650, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
@@ -2987,7 +2987,7 @@ PrefabInstance:
     - target: {fileID: 2464648889815887791, guid: fd353f7249cad4bc390b681e2180e488,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd353f7249cad4bc390b681e2180e488, type: 3}
@@ -3165,7 +3165,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &401654808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3297,7 +3297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &440020669
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3753,7 +3753,7 @@ PrefabInstance:
     - target: {fileID: 1643388088300648679, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2022345230355405650, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
@@ -5034,7 +5034,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &764548257
 Transform:
   m_ObjectHideFlags: 0
@@ -5327,7 +5327,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!65 &878842775
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5561,7 +5561,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &916547296
 Light:
   m_ObjectHideFlags: 0
@@ -6739,7 +6739,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1121172436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7257,7 +7257,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1230134772
 Transform:
   m_ObjectHideFlags: 0
@@ -7506,7 +7506,7 @@ PrefabInstance:
     - target: {fileID: 1643388088300648679, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2022345230355405650, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
@@ -7611,7 +7611,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1312061377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8572,7 +8572,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1601150811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8666,7 +8666,7 @@ PrefabInstance:
     - target: {fileID: 1643388088300648679, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2022345230355405650, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
@@ -9002,7 +9002,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &1641183509
 Light:
   m_ObjectHideFlags: 0
@@ -9325,7 +9325,7 @@ PrefabInstance:
     - target: {fileID: 1643388088300648679, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2022345230355405650, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
@@ -9429,7 +9429,7 @@ PrefabInstance:
     - target: {fileID: 1643388088300648679, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2022345230355405650, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
@@ -10405,7 +10405,7 @@ PrefabInstance:
     - target: {fileID: 1643388088300648679, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2022345230355405650, guid: 499fa84e6050e40408f902ea8a137b42,
         type: 3}
@@ -11062,7 +11062,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1880976027875012, guid: ec2a6eb55d6bac64f8e60e43c3cb20ad, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4184875029496670, guid: ec2a6eb55d6bac64f8e60e43c3cb20ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11349,7 +11349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2022190574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11826,7 +11826,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &2108504430
 AudioListener:
   m_ObjectHideFlags: 0
@@ -11982,7 +11982,7 @@ PrefabInstance:
     - target: {fileID: 2091071014875532868, guid: 83711b9c3be3741f295a2aedf93d7dd3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3932006123600558570, guid: 83711b9c3be3741f295a2aedf93d7dd3,
         type: 3}
