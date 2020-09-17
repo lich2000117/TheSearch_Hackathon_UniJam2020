@@ -23,6 +23,7 @@ public class ChangeCameraWhenEnterTheRoom : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        print("Initial");
         if (collision.gameObject.tag == "EndTrigger")
         {
             Destroy(collision.gameObject);
