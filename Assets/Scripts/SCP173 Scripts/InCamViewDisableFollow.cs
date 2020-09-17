@@ -18,6 +18,9 @@ public class InCamViewDisableFollow : MonoBehaviour
     //private int deathCount = 0;
     private UnityEngine.AI.NavMeshAgent nav;
     private GameObject soundEffect;
+    private GameObject UIs;
+    public GameObject torch;
+    public GameObject deathLight;
 
     
      void Start () {
@@ -25,6 +28,7 @@ public class InCamViewDisableFollow : MonoBehaviour
         renderer = GameObject.Find("173Body").GetComponent<Renderer>();
         followScript.enabled = false;
         soundEffect = GameObject.Find("AudioManager");
+        UIs = GameObject.Find("UIs");
         nav = this.transform.GetComponent<UnityEngine.AI.NavMeshAgent>();
         this.GetComponent<InCamViewDisableFollow>().enabled = false;
      }
@@ -41,6 +45,9 @@ public class InCamViewDisableFollow : MonoBehaviour
              //if too close and come from back, player died
             if (Vector3.Distance(monster.transform.position, player.transform.position)<1.6f) {
                 closeEnough = true;
+                UIs.SetActive(false);
+                torch.SetActive(false);
+                deathLight.SetActive(true);
                 monster.transform.LookAt(player.transform);
                 player.transform.LookAt(monster.transform);
                 player.GetComponent<MoveCam>().enabled = false;
@@ -51,11 +58,11 @@ public class InCamViewDisableFollow : MonoBehaviour
             followScript.enabled = true;
          }
 
-         //timer before switch scene
+         //timer before switch scene when player is already died
         if (closeEnough){
             timer += Time.deltaTime;
         }
-        if (timer >= 3){
+        if (timer >= 2.5f){
                 SceneManager.LoadScene("BadEnd");
             }
      }
