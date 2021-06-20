@@ -1,7 +1,9 @@
 ***The Search***
 
+Competition Site:
+****https://unijam.org.au/****
+GamePage:
 ****https://friend-studio.itch.io/the-search****
-
 
 **Introduction**
 
