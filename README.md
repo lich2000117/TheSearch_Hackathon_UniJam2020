@@ -2,6 +2,8 @@
 
 Competition Site:
 ****https://unijam.org.au/****
+****https://itch.io/jam/unimelbgamejam****
+
 GamePage:
 ****https://friend-studio.itch.io/the-search****
 
